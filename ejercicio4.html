@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E1 Forms y Listas - Ejercicio 4</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario de registro</h1>
+        <form action="">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+            </p>
+            <p>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="hombre" value="man">
+                <label for="hombre">hombre</label>
+                <input type="radio" name="sexo" id="mujer" value="woman" checked>
+                <label for="mujer">mujer</label>
+            </p>
+            <p>
+                <label for="correo">Correo:</label>
+                <input type="email" name="" id="correo">
+            </p>
+            <p>
+                <label for="poblacion">Población:</label>
+                <select name="poblacion" id="poblacion">
+                    <option value="alicante">Alicante</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="barcelona">Barcelona</option>
+                </select>
+            </p>
+            <p>
+                <label for="descrip">Descripción:</label>
+                <textarea name="description" id="descrip" cols="70" rows="7"></textarea> <!-- NOVEDAD!!! AREA DE TEXTO CON MULTILINEA -->
+            </p>
+            <p>
+                <input type="checkbox" name="info" id="info">
+                <label for="info">Deseo recibir informaciones sobre novedades y ofertas.</label>
+            </p>
+            <p>
+                <input type="checkbox" name="conditions" id="aceptar-condiciones">
+                <label for="aceptar-condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            </p>
+            <button type="submit"><b>Enviar</b></button> <!-- background: linear-gradient(180deg, rgb(220, 225, 228), rgb(223, 245, 247), rgb(154, 197, 216) );border-radius: 3px; border-width: 1px;" -->
+        </form>
+    </main>
+    
+    
+</body>
+</html>

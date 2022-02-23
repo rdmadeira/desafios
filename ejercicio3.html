@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E1 Forms y Listas - Ejercicio 3</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario de registro</h1>
+        <form action="" id="form1">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="name" id="nombre">
+            </p>
+            <p>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="lastname" id="apellidos">
+            </p>
+            <p>Sexo:
+                <input type="radio" id="hombre" name="Sex" value="man">
+                <label for="hombre">hombre</label>
+                <input type="radio" id="mujer" name="Sex" value="woman">
+                <label for="mujer">mujer</label>
+            </p>
+            <p>
+                <label for="correo">Correo:</label>
+                <input type="email" name="mail" id="correo">
+            </p>
+            <p>
+                <input type="checkbox"  name="info" id="info" checked>
+                <label for="info">Deseo recibir informaciones sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input type="checkbox" name="conditions" id="aceptar-condiciones">
+                <label for="aceptar-condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </p>
+            <button type="submit" formaction="form1"><b>Enviar</b></button>
+            
+        </form>
+
+
+    </main>
+</body>
+</html>
