@@ -1,2 +1,2 @@
-# desaf-o1
+# desafio1
 Desafío enviado por NUCBA
