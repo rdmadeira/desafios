@@ -81,7 +81,7 @@ footer {
           padding: 10px 9vw; 
 }
 footer:hover {
-    height: 51vh;
+    height: 60vh;
     transition-property: all;
     transition-duration: 2s;
   transition-delay: 0.3s; 
