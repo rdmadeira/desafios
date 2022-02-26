@@ -42,6 +42,13 @@ nav {
     width: 24%;
     align-self: center;
 }
+nav:hover {
+    opacity: 1;
+    border-color: yellow;
+    border-style: ridge;
+    background: linear-gradient(0deg, black, chocolate);
+    border-width: thin;
+}
 #link-form {
     display: flex;
     align-items: center;
