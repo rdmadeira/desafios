@@ -16,13 +16,21 @@ body {
 header div p, header div h1 {
     color:beige;
     font-family: cursive;
-    margin-left: 30px;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+header div h1 {
+    letter-spacing: 1px;
+    margin-block-start: 0.4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-block-start: 1em;    
 }
 #logo {
     width: 30%;
 }
 #title {
-    width: 40%;
+    width: 45%;
     display: flex; align-content: center; justify-content: space-around;
 }
 nav {
@@ -30,8 +38,9 @@ nav {
     align-items: center;
     background: chocolate;
     opacity: 0.7;
-    padding: 0px 9px;
-    margin-left: 6vw;
+    padding: 0px 4px;
+    width: 24%;
+    align-self: center;
 }
 #link-form {
     display: flex;
@@ -44,6 +53,8 @@ nav {
     color:beige;
     font-family: cursive;
     font-weight: 700;
+    font-size: 1em;
+
 }
 main {
     width: 100%;
